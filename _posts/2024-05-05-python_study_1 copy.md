@@ -1,7 +1,7 @@
 ---
 title: "testtest"
 author: explorersm11
-date: 2024-05-05 17:29:00 +0900
+date: 2024-05-05 22:29:00 +0900
 categories: [Python, Study]
 tags: [python, til]
 render_with_liquid: false
