@@ -1,5 +1,20 @@
 /* The common styles */
 
+
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SUITE-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
 html {
   @media (prefers-color-scheme: light) {
     &:not([data-mode]),
@@ -22,7 +37,7 @@ html {
       @include light-scheme;
     }
   }
-
+  font-family: "Pretendard-Regular";
   font-size: 16px;
 }
 
@@ -32,7 +47,7 @@ body {
     env(safe-area-inset-bottom) env(safe-area-inset-left);
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
-  font-family: $font-family-base;
+  font-family: "Pretendard-Regular";
 }
 
 /* --- Typography --- */
@@ -114,7 +129,7 @@ blockquote {
 }
 
 kbd {
-  font-family: inherit;
+  font-family: "Pretendard-Regular";
   display: inline-block;
   vertical-align: middle;
   line-height: 1.3rem;
@@ -197,7 +212,7 @@ i {
 #panel-wrapper {
   /* the headings */
   .panel-heading {
-    font-family: inherit;
+    font-family: "Pretendard-Regular";
     line-height: inherit;
 
     @include label(inherit);
@@ -728,9 +743,9 @@ $btn-mb: 0.5rem;
   }
 
   .site-title {
-    font-family: inherit;
+    font-family: 'SUITE-Regular';
     font-weight: 900;
-    font-size: 1.75rem;
+    font-size: 1.8rem;
     line-height: 1.2;
     letter-spacing: 0.25px;
     margin-top: 1.25rem;
@@ -745,6 +760,7 @@ $btn-mb: 0.5rem;
   }
 
   .site-subtitle {
+    font-family: "Pretendard-Regular";
     font-size: 95%;
     color: var(--site-subtitle-color);
     margin-top: 0.25rem;
@@ -1076,7 +1092,7 @@ search {
   display: none;
   font-size: 1.1rem;
   font-weight: 600;
-  font-family: sans-serif;
+  font-family: "Pretendard-Regular";
   color: var(--topbar-text-color);
   text-align: center;
   width: 70%;
@@ -1181,7 +1197,7 @@ search {
   }
 
   .toast-body {
-    font-family: Lato, sans-serif;
+    font-family: "Pretendard-Regular";
     line-height: 1.25rem;
 
     button {

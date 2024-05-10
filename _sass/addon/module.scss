@@ -4,10 +4,17 @@
 
 /* ---------- scss placeholder --------- */
 
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
 %heading {
   color: var(--heading-color);
   font-weight: 400;
-  font-family: $font-family-heading;
+  font-family: 'Pretendard-Regular';
 }
 
 %section {
