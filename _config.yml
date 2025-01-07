@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: explorersm11 # the main title
 
-tagline: 얼떨결에 파이썬을 써버리게 됐달까.. # it will display as the sub-title
+tagline: 해보장 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -226,3 +226,5 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+future: true

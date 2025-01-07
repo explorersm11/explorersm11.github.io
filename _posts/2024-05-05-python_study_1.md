@@ -5,6 +5,7 @@ date: 2024-05-05 17:29:00 +0900
 categories: [Python, Study]
 tags: [python, til]
 render_with_liquid: false
+published: true
 ---  
 
 ## 1. 모든 행, 열 출력 설정 : `pd.set_opstion()`
