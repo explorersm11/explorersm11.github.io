@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning study - 4"
+title: "Machine Learning study - 3"
 author: explorersm11
 date: 2024-05-12 19:01:00 +0900
 categories: [MachineLeaning, Study]
