@@ -2,8 +2,8 @@
 title: "RAID(Redundant Array of Independent Disks)"
 author: explorersm11
 date: 2025-01-07 15:37:00 +0900
-categories: [자격증, 리눅스마스터1급]
-tags: [linux, til, 자격증, 리눅스마스터1급, 리마1급, cs]
+categories: [License, Linux Master 1st Class]
+tags: [linux, til, cs]
 render_with_liquid: false
 ---  
 
