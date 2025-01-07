@@ -1,7 +1,7 @@
 ---
 title: "RAID(Redundant Array of Independent Disks)"
 author: explorersm11
-date: 2025-01-07 15:37:00 +0900
+date: 2025-01-06 15:37:00 +0900
 categories: [License, Linux]
 tags: [linux, til, cs]
 render_with_liquid: false
